@@ -1,0 +1,12 @@
+<launch>
+	
+	<node pkg="td_ibvs_nsftasmc" type="quav_dynamics_node" name="quav_dynamics_node" />	
+	<node pkg="td_ibvs_nsftasmc" type="imfeat_node" name="imfeat_node" output="screen"   />
+	<node pkg="td_ibvs_nsftasmc" type="ibvs_node" name="ibvs_node"   />
+	<node pkg="td_ibvs_nsftasmc" type="nftasmc_att_node" name="nftasmc_att_node"  />
+	<node pkg="td_ibvs_nsftasmc" type="dist_node" name="dist_node"  />
+	<node pkg="td_ibvs_nsftasmc" type="tgt_pos_node" name="tgt_pos_node"  />
+	<node pkg="td_ibvs_nsftasmc" type="fixed_td_node" name="fixed_td_node"  />
+	
+</launch>
+
