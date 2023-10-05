@@ -114,9 +114,9 @@ int main(int argc, char *argv[])
     geometry_msgs::Quaternion im_feat_est_err_var;
 
 
-    imFeat_estimate << 0,0,1.7,0;
+    imFeat_estimate << 0,0,1,0;
     imFeat_estimate_dot << 0,0,0,0;
-    estimation_error << 0, 0, -0.1, 0;
+    estimation_error << -0.08, -0.12, 0.6, 0;
     x1_hat_dot << 0, 0, 0, 0;
     x2_hat_dot << 0, 0, 0, 0;
     x3_hat_dot << 0, 0, 0, 0;
